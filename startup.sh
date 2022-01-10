@@ -126,7 +126,7 @@ esac
 # selection for disk type
 diskpart () {
 # show disks present on system
-lsblk -t
+lsblk
 echo -ne "
 ------------------------------------------------------------------------
     THIS WILL FORMAT AND DELETE ALL DATA ON THE DISK             
