@@ -138,6 +138,7 @@ wine-mono
 winetricks
 xdg-desktop-portal-kde
 xdg-user-dirs
+xf86-input-mouse
 zeroconf-ioslave
 zip
 zsh
