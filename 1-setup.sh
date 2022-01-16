@@ -54,7 +54,7 @@ timedatectl --no-ask-password set-ntp 1
 localectl --no-ask-password set-locale LANG="de_DE.UTF-8" LC_TIME="de_DE.UTF-8"
 
 # Set keymaps
-localectl --no-ask-password set-keymap ${KEYMAP}
+localectl --no-ask-password set-keymap de-latin1-nodeadkeys
 
 # Add sudo no password rights
 sed -i 's/^# %wheel ALL=(ALL) NOPASSWD: ALL/%wheel ALL=(ALL) NOPASSWD: ALL/' /etc/sudoers
