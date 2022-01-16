@@ -22,5 +22,4 @@ ttf-droid
 ttf-hack
 ttf-meslo
 ttf-roboto
-zoom
 snap-pac
